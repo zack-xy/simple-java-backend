@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: simple-java-backend
+  datasource:
+    url: jdbc:mysql://localhost:3090/simplebackend?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8080
+
